@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<title>Time Flies</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<script src="js/wavey.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -17,33 +21,38 @@
 			</ul>
 		</nav>
 		<div>
+			<center><img src="https://ftp.isc.org/isc/dnssec-guide/img/image-placeholder.jpg" style="height: 200px"></center>
+		</div>
+		<div>
 			<center><h1>TIME FLIES</h1></center>
 		</div>
-		<div class="forms">
-			<center><button onclick="myFunction()"><h4>SIGN IN</h4></button></center>
-				<div id="signin" style="display: none;">
-					<center><form>
-						<input type="text" name="username" placeholder="username">
-						<input type="text" name="password" placeholder="password">
-						<input type="submit" name="submit" value="submit">
-						
-					</form></center>
-				</div>	
-			<center><button onclick="myFunction2()"><h4>REGISTER</h4></button></center>
-				<div id="register" style="display: none;">
-					<center><form>
-						<input type="text" name="username" placeholder="username">
-						<input type="text" name="password" placeholder="password">
-						<input type="email" name="email" placeholder="email">
-						<input type="text" name="first name" placeholder="First Name">
-						<input type="text" name="last name" placeholder="Last Name">
-						<input type="submit" name="submit">
-					</form></center>
-					
-				</div>
+		<div class="container">
+			<div class="intro">
+						<center><button onclick="myFunction()"><h4>SIGN IN</h4></button></center>
+							<div id="signin" style="display: none;">
+								<center><form>
+									<input type="text" name="username" placeholder="username">
+									<input type="text" name="password" placeholder="password">
+									<input type="submit" name="submit" value="submit">
+									
+								</form></center>
+							</div>	
+							<br>
+						<center><button onclick="myFunction2()"><h4>REGISTER</h4></button></center>
+							<div id="register" style="display: none;">
+								<center><form>
+									<input type="text" name="username" placeholder="username">
+									<input type="text" name="password" placeholder="password">
+									<input type="text" name="first name" placeholder="First Name">
+									<input type="text" name="last name" placeholder="Last Name">
+									<input type="email" name="email" placeholder="email">
+									<input type="submit" name="submit">
+								</form></center>
+							</div>
+			</div>
 		</div>
 			<center><footer>
-				Time flies is not an app, it's an experience!
+				Time flies is not an app, it's a way of life!
 			</footer></center>
 	</body>
 </html>

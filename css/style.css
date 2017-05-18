@@ -1,16 +1,23 @@
+body {
+	background: url("../images/sunset2.jpg");
+	background-size: 100%;
+}
 li {
 	display: inline;
-}
-.forms {
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 nav {
 	background-color: #F8F8F8;
     border-color: #E7E7E7;
 }
-body {
-	background-image: url(../images/background.jpg);
-	background-size: cover;
-    background-repeat: no-repeat;
+.intro {
+	background-color: #0375B4; 
+	opacity:0.6; 
+	margin-left: 200px; 
+	margin-right: 200px; 
+	padding-top: 40px; 
+	padding-bottom: 40px;
+	border: 5px solid #FFCE00;"
+}
+.intro:hover {
+	opacity: 1.0;
 }
