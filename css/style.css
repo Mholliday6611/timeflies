@@ -1,23 +1,24 @@
-body {
-	background: url("../images/sunset2.jpg");
-	background-size: 100%;
-}
+
 li {
 	display: inline;
 }
 nav {
-	background-color: #F8F8F8;
+	background-color: black;
     border-color: #E7E7E7;
+    font-size: 30px;
 }
 .intro {
-	background-color: #0375B4; 
-	opacity:0.6; 
+	/*background-color: #0375B4; */
+	/*opacity:0.6; */
 	margin-left: 200px; 
 	margin-right: 200px; 
 	padding-top: 40px; 
 	padding-bottom: 40px;
-	border: 5px solid #FFCE00;"
+	/*border: 5px solid #FFCE00;"*/
 }
 .intro:hover {
 	opacity: 1.0;
+}
+form{
+	margin: 0 auto
 }
