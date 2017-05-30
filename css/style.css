@@ -48,8 +48,7 @@ form{
 	margin: 0 auto
 }
 body {
-	background-image: url(../images/);
-	background-size: cover
+  background-color: #F5F5F5
 }
 .form-style-4{
     width: 450px;
