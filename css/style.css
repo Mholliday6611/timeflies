@@ -27,6 +27,10 @@
 nav ol li {
 	display: inline;
 }
+nav a {
+  color: white
+}
+
 nav {
 	background-color: black;
     border-color: #E7E7E7;
@@ -48,7 +52,7 @@ form{
 	margin: 0 auto
 }
 body {
-  background-color: #F5F5F5
+  background-color: #F5F5F5;
 }
 .form-style-4{
     width: 450px;
