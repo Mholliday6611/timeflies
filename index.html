@@ -11,14 +11,13 @@
 	</head>
 	<body>
 		<nav>
-			<ul>
+			<center><ol>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="settings.html">Settings</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				<li><a href="index.html">Logout</a></li>
 				<li><a href="refferal.html">Referral</a></li>
-			</ul>
+			</ol></center>
 		</nav>
 		<div>
 			<center><img src="images/logo.png" style="height: 300px"></center>
@@ -28,31 +27,53 @@
 		</div>
 		<center><div>
 			<div class="intro">
-						<center><button onclick="myFunction()"><h4>SIGN IN</h4></button></center>
+						<center><button class="btn" onclick="myFunction()"><h4>SIGN IN</h4></button></center>
+						<br>
 							<div id="signin" style="display: none;">
-								<form>
-									<input type="text" name="username" placeholder="username">
-									<input type="text" name="password" placeholder="password">
-									<input type="submit" name="submit" value="submit">
-									
+								<form class="form-style-4" action="" method="post">
+									<label for="field1">
+									<span>Username</span><input type="text" name="field1" />
+									</label>
+									<label for="field2">
+									<span>Password</span><input type="text" name="field2"/>
+									</label>
+									<label>
+									<center><span>&nbsp;</span><input type="submit" value="Sign In" />
+									</label></center>
 								</form>
 							</div>	
 							<br>
-						<center><button onclick="myFunction2()"><h4>REGISTER</h4></button></center>
+						<center><button class="btn" onclick="myFunction2()"><h4>REGISTER</h4></button></center>
+						<br>
 							<div id="register" style="display: none;">
-								<form>
-									<input type="text" name="username" placeholder="username">
-									<input type="text" name="password" placeholder="password">
-									<input type="text" name="first name" placeholder="First Name">
-									<input type="text" name="last name" placeholder="Last Name">
-									<input type="email" name="email" placeholder="email">
-									<input type="submit" name="submit">
+								<form class="form-style-4" action="" method="post">
+									<label for="field1">
+									<span>Username</span><input type="text" name="field1"/>
+									</label>
+									<label for="field2">
+									<span>Password</span><input type="text" name="field2" />
+									</label>
+									<label for="field3">
+									<span>First Name</span><input type="text" name="field3" />
+									</label>
+									<label for="field4">
+									<span>Last Name</span><input type="text" name="field4"/>
+									</label>
+									<label for="field2">
+									<span>Email</span><input type="email" name="field2" />
+									</label>
+									<label>
+									<a href="survey.html"><center>Register</center></a>
 								</form>
 							</div>
 			</div>
 		</div></center>
 			<center><footer>
 				Time flies is not an app, it's a way of life!
+				<br>
+				<img class="icon" src="images/twit.png">
+				<img class="icon" src="images/fb.png">
+				<img class="icon" src="images/insta.png">
 			</footer></center>
 	</body>
 </html>

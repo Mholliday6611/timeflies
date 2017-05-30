@@ -7,20 +7,84 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/slide.js"></script>
 	</head>
 	<body>
 		<nav>
-			<ol>
+			<center><ol>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="settings.html">Settings</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				<li><a href="index.html">Logout</a></li>
 				<li><a href="refferal.html">Referral</a></li>
-			</ol>
+				<li><a href="main.html">Dash</a></li>
+			</ol></center>
 		</nav>
-		<div>
+		<div id="chartContainer" style="height: 300px; width: 50%;">
+		<img src="images/chart.png" style="height: 300px; margin-left: 100px">
 			
+		</div>
+		<div class="reccommended" style="width: 50%; height: 300px; margin-left: 650px; margin-top: -300px;">
+			<h1>SITES YOU SHOULD CHECK OUT</h1>
+			<h4>So you want to be coder?</h4>
+			<ul style="font-size: 25px">
+				<a href="https://www.w3schools.com/"><li>W3 Schools</li></a>
+				<a href="https://stackoverflow.com/"><li>Stack Overflow</li></a>
+				<a href="http://www.theknowledgehouse.org/"><li>The Knowledge House</li></a>
+				<a href="https://www.meetup.com/"><li>Meet Up</li></a>
+				<a href="https://www.linkedin.com/feed/"><li>LinkedIn</li></a>
+			</ul>
+			
+		</div>
+		<div class="tips">
+		<h1 style="margin-left: 300px">TIPS FOR BETTER TIME MANAGEMENT!</h1>
+		<div class="mySlides ">
+		<h3>1. Know your goals.</h3>
+			<p>Make sure you’re engaging in activities that support your business goals, both short- and long-term. Everything else is a potential time-waster. Your daily plan should revolve around working on tasks and activities that directly relate to growing yourself!</p>
+		</div>
+		<div class="mySlides ">
+		<h3>2. Prioritize wisely.</h3>
+			<p>Looking at what goes into making up your day, where do your activities fit into these categories?
+
+			Important and urgent — Tasks that must be done. Do them right away.
+			Important but not urgent — Tasks that appear important, but upon closer examination aren’t. Decide when to do them.
+			Urgent but not important — Tasks that make the most “noise,” but when accomplished, have little or no lasting value. Delegate these if possible.
+			Not urgent and not important — Low-priority stuff that offer the illusion of “being busy.” Do them later.
+			Write down your three or four “important and urgent” tasks that must be addressed today. As you complete each one, check it off your list. This will provide you with a sense of accomplishment and can motivate you to tackle less essential items.</p>
+		</div>
+		<div class="mySlides ">
+		<h3>3. Just say no.</h3>
+			<p>You’re the boss. If you have to decline a request in order to attend to what’s truly important and urgent, do not hesitate to do so. The same goes for any projects or activities that you’ve determined are headed nowhere: Be prepared to move on to more productive tasks. Learn from the experience to avoid wasting time later on.</p>
+		</div>
+		<div class="mySlides ">
+		<h3>4. Plan ahead.</h3>
+			<p>One of the worst things you can do is jump into the workday with no clear idea about what needs to get done. The time you spend thinking ahead and planning your activities is trivial compared with the time you’ll lose jumping from one thing to the next (and rarely completing anything). Depending on your personality, try one of these options:
+
+			The night before — At the end of the day, take 15 minutes to clear your desk and put together a list of the next day’s most pressing tasks. It’s a great decompression technique, and you’ll feel better sitting down at a clean desk in the morning.
+			First thing in the morning — Arrive a few minutes early and assemble your prioritized to-do list (see #2). This may prove to be the most productive part of your day.</p>
+		</div>
+		<div class="mySlides">
+		<h3>5. Eliminate distractions.</h3>
+			<p>Start paying attention to the number of times someone interrupts you when you’re in the midst of an important task. Track self-induced interruptions, too, particularly those of the social media variety. Your smartphone is extremely useful, but it’s also addictive and among the most insidious time-wasters known to mankind.
+
+			It may take a massive exercise in will power, but shut the door and turn off your phone to maximize your time. Instead of being “always on,” plan a break in the day to catch up on email, call people back, etc.</p>
+		</div>
+		<div class="mySlides">
+		<h3>6. Take care of yourself.</h3>
+			<p>Be sure to get plenty of sleep and exercise. An alert mind is a high-functioning mind and one that’s less tolerant of time-wasting activities.</p>
+		</div>	
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ 		 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		  <span class="dot" onclick="currentSlide(5)"></span> 
+		  <span class="dot" onclick="currentSlide(6)"></span> 
 		</div>
 	</body>
 </html>
